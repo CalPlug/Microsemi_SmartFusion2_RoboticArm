@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Robotic Arm</string>
+    <string name="sortTubes">Sort Tubes</string>
+    <string name="agitateTubes">Agitate</string>
+    <string name="Motions">Different motions</string>
+
+    <string name="Connect">Connect</string>
+
+    <string name="Connect_Status">Connect Status</string>
+    <string name="Connect_Confirmation">Confirmed Connection</string>
+
+    <string name="Dancing_Arm">Dancing Arm</string>
+
+    //Bluetooth Selection
+    <string name="Port">Port</string>
+    <string name="Bluetooth1">Bluetooth 1</string>
+    <string name="Bluetooth2">Bluetooth 2</string>
+    <string name="Bluetooth3">Bluetooth 3</string>
+
+    //Sort Tubes
+    <string name="Sort_Tubes">Sort Tubes</string>
+    <string name="AtoB">Move from A to B</string>
+    <string name="BtoA">Move from B to A</string>
+    <string name="CtoD">Move from C to D</string>
+    <string name="DtoC">Move from D to C</string>
+
+    //Agitate Tubes
+    <string name="Agitate_Tubes">Agitate Tubes</string>
+    <string name="A">Agitate A </string>
+    <string name="B">Agitate B </string>
+    <string name="C">Agitate C </string>
+    <string name="D">Agitate D </string>
+
+    //Motion
+    <string name="DemoCalibrate">Demo Motion / Calibrate Motion</string>
+    <string name="demo">Demo Motion </string>
+    <string name="calibrate">Calibrate Motion </string>
+
+    //Entries in Bluetooth Selection
+    <string-array
+        name="connect_array">
+        <item>@string/Port</item>
+        <item>@string/Bluetooth1</item>
+        <item>@string/Bluetooth2</item>
+        <item>@string/Bluetooth3</item>
+    </string-array>
+
+
+    //Entries for Sorting Tubes
+    <string-array
+        name="SortTubes">
+        <item>@string/Sort_Tubes</item>
+        <item>@string/AtoB</item>
+        <item>@string/BtoA</item>
+        <item>@string/CtoD</item>
+        <item>@string/DtoC</item>
+    </string-array>
+
+    //Entries for Agitating Tubes
+    <string-array
+        name="Agitate">
+        <item>@string/Agitate_Tubes</item>
+        <item>@string/A</item>
+        <!--<item>@string/B</item> -->
+        <item>@string/C</item>
+        <!--<item>@string/D</item> -->
+    </string-array>
+
+    <string-array
+        name="Motion">
+        <item>@string/DemoCalibrate</item>
+        <item>@string/demo</item>
+        <item>@string/calibrate</item>
+    </string-array>
+
+    <string name="title_activity_pair">Pair A New Device</string>
+    <string name="title_activity_settings">Configurations</string>
+
+    <string name="scrub_empty">Tap and hold the graph to see value.</string>
+    <string name="scrub_format">Force intensity: %1$s</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_Continue">Continue</string>
+    <string name="button_settings">Calibration</string>
+    <string name="button_conn">Connect</string>
+    <string name="button_Pair">Pair New Device</string>
+    <string name="button_submit">Done</string>
+    <string name="button_fill_zero">Abort graph when data is missing</string>
+
+    <string name="label_pair_list">Devices in range</string>
+    <string name="label_connect_list">Connected devices</string>
+
+    <string name="cmd_start"> 001 </string>
+    <string name="cmd_stop"> 002 </string>
+    <string name="cmd_pause"> 003 </string>
+    <string name="cmd_continue"> 004 </string>
+
+    <string name="threshold_title">Please enter the threshold for each level in an increasing order</string>
+
+    <string-array name="sound_array">
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+    </string-array>
+
+
+
+</resources>

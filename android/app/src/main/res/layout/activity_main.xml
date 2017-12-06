@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.crystallai.test.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@color/orange"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@mipmap/arrow"
+            android:id="@+id/imageView6"
+            android:layout_alignTop="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignEnd="@+id/Port" />
+
+        <Spinner
+            android:background="@color/gray"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:entries="@array/connect_array"
+            android:textAlignment="center"
+            android:id="@+id/Port"
+            android:layout_marginStart="11dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="@string/Connect"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/button"
+            android:layout_alignTop="@+id/Port"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:text="@string/Connect_Status"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:id="@+id/button2"
+            android:layout_alignBottom="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="viewStart"
+        android:entries="@array/SortTubes"
+        android:id="@+id/SortTubes"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="50dp"
+        android:textAlignment="viewStart"
+        android:entries="@array/Agitate"
+        android:id="@+id/Agitate"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignBottom="@+id/SortTubes" />
+
+    <Switch
+        android:text="Continuous Demo Motion"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:id="@+id/switch2"
+        android:layout_marginStart="25dp"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_marginBottom="11dp" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/mixtubedrew"
+        android:id="@+id/imageButton2"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/checkBox" />
+
+    <Spinner
+        android:spinnerMode="dropdown"
+        android:entries="@array/Motion"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/checkBox"
+        android:layout_marginEnd="122dp"
+        android:layout_alignBottom="@+id/switch2"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/robot1600"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:id="@+id/imageView3"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/checkBox"
+        android:layout_toStartOf="@+id/Agitate" />
+
+    <ImageButton
+        android:layout_width="248dp"
+        android:layout_height="201dp"
+        app:srcCompat="@mipmap/agitate4"
+        android:padding="0sp"
+        android:id="@+id/imageButton"
+        android:scaleType="fitCenter"
+        android:layout_alignStart="@+id/switch2"
+        android:layout_above="@+id/SortTubes" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:text="@string/Connect_Confirmation"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/switch2"
+        android:layout_alignEnd="@+id/imageButton" />
+
+</RelativeLayout>
