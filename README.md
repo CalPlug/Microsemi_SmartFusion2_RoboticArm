@@ -65,7 +65,7 @@ Note:  This folder contains the most recent Libero and SoftConsole projects for 
 1. The Libero SoC project was renamed Servo-arm2 (the project was previously named PWM_8ch_16b_Creative).
 2. The SoftConsole project was renamed servoarm  (the project was originally named SF2_GNU_SC4_pwm_slow_blink).
 
-No changes were made to the Libero project or SoftConsole project other than renaming the projects.
+No changes were made to the Libero project or SoftConsole project other than renaming the projects.  Please see the revision notes file about potential issues with hard coded path that may need to be updated.
 
 Tim McCarthy
 March 6, 2017
