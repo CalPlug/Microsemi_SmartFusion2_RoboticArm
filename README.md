@@ -61,8 +61,7 @@ further modified to support Semihosting as described in the SoftConsole 4.0 Rele
 Tim McCarthy
 February 14, 2017
 
-Note:  This folder contains the most recent Libero and SoftConsole projects for the Embedded World robotic arm demo based on 
-NewProject_servo_arm2.zip which was downloaded from the Calit2 transfer system.  The following changes were made to the project:
+Note:  This folder contains the most recent Libero and SoftConsole projects for the Embedded World robotic arm demo. The following changes were made to the project:
 1. The Libero SoC project was renamed Servo-arm2 (the project was previously named PWM_8ch_16b_Creative).
 2. The SoftConsole project was renamed servoarm  (the project was originally named SF2_GNU_SC4_pwm_slow_blink).
 
