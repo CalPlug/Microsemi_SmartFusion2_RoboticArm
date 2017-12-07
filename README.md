@@ -12,16 +12,17 @@ Copyright (C) The Regents of the University of California, 2017
 Released into the public domain. 
 
 
+Demonstration video:  https://www.youtube.com/watch?v=K9a-UCFHEOE&feature=youtu.be
+
 Installation:
 
 This folder contains an update to the most recent Libero project for the Embedded World robotic arm demo in addition to an application note explaining the operation of the project.
 
 Prior to Release on Github, the following changes were made to the project:
-1. The Libero SoC project was renamed Servo-arm3 (the project was previously named Servo-arm2).
-2. CoreGPIO was modified to use individual interrupts for the General Purpose Inputs (GPI[2:0]) instead of the OR'd implementation
+1. CoreGPIO was modified to use individual interrupts for the General Purpose Inputs (GPI[2:0]) instead of the OR'd implementation
    used in the previous version of the design.  GPI[0] is connected to SW1 on the Future Electronics Creative board.  INT[0] is 
    connected to the Cortex-M3 NVIC interrupt 1 (MSS_INT_F2M[1]).  GPI[1] is connected to SW2 on the Future Electronics Creative board.    INT[1] is  connected to the Cortex-M3 NVIC interrupt 2 (MSS_INT_F2M[2]).  GPI[2] is connected to pin 3 of the Mikro Bus Adapter 5 connector (MIKRO_CS).
-3. CorePWM was updated to the latest version (v4.4.101).
+2. CorePWM was updated to the latest version (v4.4.101).
 The pin assignments were unchanged from the previous release.
 
 A SoftConsole project based on the CoreGPIO Interrupt Blink sample project (SF2_GNU_SC4_interrupt_blink) was used to test the interrrupts.
