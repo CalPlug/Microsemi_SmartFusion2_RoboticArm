@@ -1,0 +1,46 @@
+Software Version: 11.7.2.2
+Embedded FlashPro5 programmer detected.
+programmer 'E20010QF5L' : FlashPro5
+Opened 'C:\Users\Hiperwall\Desktop\NewProject\Servo-arm2\designer\SF2_MSS_sys\SF2_MSS_sys_fp\SF2_MSS_sys.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/Hiperwall/Desktop/NewProject/Servo-arm2/designer/SF2_MSS_sys/SF2_MSS_sys.ipd' has been loaded successfully.
+DESIGN : SF2_MSS_sys;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+The 'enable_procedure' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20010QF5L' : Scan Chain...
+Warning: programmer 'E20010QF5L' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E20010QF5L' : Check Chain...
+programmer 'E20010QF5L' : Scan and Check Chain PASSED.
+programmer 'E20010QF5L' : device 'M2S025' : Executing action PROGRAM
+programmer 'E20010QF5L' : device 'M2S025' : Family: SmartFusion2
+programmer 'E20010QF5L' : device 'M2S025' : Product:      M2S025
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 00746344
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT CRCERR: [1] = 0
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT EDCERR: [1] = 0
+programmer 'E20010QF5L' : device 'M2S025' : TEMPGRADE: ROOM
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT VPPRANGE: [3] = 2
+programmer 'E20010QF5L' : device 'M2S025' : VPPRANGE: HIGH
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT TEMP: [8] = 63
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT VPP: [8] = 74
+programmer 'E20010QF5L' : device 'M2S025' : Set FREQRNG to $FF (7 wait cycles)
+programmer 'E20010QF5L' : device 'M2S025' : Programming eNVM...
+programmer 'E20010QF5L' : device 'M2S025' : Verifying eNVM...
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT Restore user FREQRNG setting [32] = 0000006d
+programmer 'E20010QF5L' : device 'M2S025' : ===================================================================================
+programmer 'E20010QF5L' : device 'M2S025' : EXPORT DSN[128] = ec53e8a4e8ab16d079efc4242da56d06
+programmer 'E20010QF5L' : device 'M2S025' : ===================================================================================
+programmer 'E20010QF5L' : device 'M2S025' : Finished: Thu May 11 14:57:41 2017 (Elapsed time 00:00:07)
+programmer 'E20010QF5L' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E20010QF5L' : Chain programming PASSED.
+Chain Programming Finished: Thu May 11 14:57:41 2017 (Elapsed time 00:00:07)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

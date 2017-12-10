@@ -1,0 +1,6 @@
+1488753084182	Delete resource 'SF2_GNU_SC4_pwm_edges_ctrl'
+1488753090421	Delete resource 'SF2_GNU_SC4_polled'
+1488753096472	Delete resource 'SF2_GNU_SC4_interrupt_tx'
+1488753101693	Delete resource 'SF2_GNU_SC4_interrupt_blink'
+1488753106179	Delete resource 'SF2_GNU_SC4_simple_blink'
+1488753110793	Delete resource 'SF2_GNU_SC4_simple_gpio'

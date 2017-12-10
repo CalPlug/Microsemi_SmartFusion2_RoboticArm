@@ -1,0 +1,11 @@
+21:16:42 **** Incremental Build of configuration Debug for project SF2_GNU_SC4_polled ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_polled.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6320	   1184	  58032	  65536	  10000	SF2_GNU_SC4_polled.elf
+Finished building: SF2_GNU_SC4_polled.siz
+ 
+
+21:16:43 Build Finished (took 1s.457ms)
+

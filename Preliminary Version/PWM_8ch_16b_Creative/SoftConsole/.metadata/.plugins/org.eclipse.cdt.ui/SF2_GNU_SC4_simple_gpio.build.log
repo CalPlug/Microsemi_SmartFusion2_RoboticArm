@@ -1,0 +1,11 @@
+21:16:53 **** Incremental Build of configuration Debug for project SF2_GNU_SC4_simple_gpio ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_simple_gpio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6528	   1072	  57936	  65536	  10000	SF2_GNU_SC4_simple_gpio.elf
+Finished building: SF2_GNU_SC4_simple_gpio.siz
+ 
+
+21:16:56 Build Finished (took 2s.269ms)
+

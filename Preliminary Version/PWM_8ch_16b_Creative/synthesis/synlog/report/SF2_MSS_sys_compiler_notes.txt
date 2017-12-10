@@ -1,0 +1,76 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys\SF2_MSS_sys.vhd":17:7:17:17|Top entity is set to SF2_MSS_sys.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys\SF2_MSS_sys.vhd":17:7:17:17|Synthesizing work.sf2_mss_sys.rtl 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\SF2_MSS_sys_sb.vhd":29:7:29:20|Synthesizing work.sf2_mss_sys_sb.rtl 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb_MSS\SF2_MSS_sys_sb_MSS.vhd":17:7:17:24|Synthesizing work.sf2_mss_sys_sb_mss.rtl 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb_MSS\SF2_MSS_sys_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_025.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":249:10:249:12|Synthesizing smartfusion2.or3.syn_black_box 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\FABOSC_0\SF2_MSS_sys_sb_FABOSC_0_OSC.vhd":8:7:8:33|Synthesizing work.sf2_mss_sys_sb_fabosc_0_osc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\CoreUARTapb.vhd":62:7:62:46|Synthesizing coreuartapb_lib.sf2_mss_sys_sb_coreuartapb_0_coreuartapb.translated 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\CoreUARTapb.vhd":305:16:305:26|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\CoreUARTapb.vhd":333:15:333:25|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\CoreUART.vhd":34:7:34:43|Synthesizing coreuartapb_lib.sf2_mss_sys_sb_coreuartapb_0_coreuart.translated 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\CoreUART.vhd":450:13:450:24|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":33:7:33:43|Synthesizing coreuartapb_lib.sf2_mss_sys_sb_coreuartapb_0_rx_async.translated 
+@N: CD233 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":64:24:64:25|Using sequential encoding for type receive_states
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":233:15:233:29|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":256:19:256:26|Removed redundant assignment
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i.
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":33:7:33:43|Synthesizing coreuartapb_lib.sf2_mss_sys_sb_coreuartapb_0_tx_async.translated 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":311:12:311:20|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Clock_gen.vhd":35:7:35:44|Synthesizing coreuartapb_lib.sf2_mss_sys_sb_coreuartapb_0_clock_gen.rtl 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl 
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1.
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\corepwm.vhd":31:7:31:13|Synthesizing corepwm_lib.corepwm.trans 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\corepwm.vhd":1330:24:1330:34|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":32:7:32:21|Synthesizing corepwm_lib.corepwm_pwm_gen.trans 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\timebase.vhd":31:7:31:22|Synthesizing corepwm_lib.corepwm_timebase.trans 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":30:7:30:20|Synthesizing corepwm_lib.corepwm_reg_if.trans 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":163:21:163:31|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":29:7:29:14|Synthesizing coregpio_lib.coregpio.rtl 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":566:16:566:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":593:16:593:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":620:16:620:24|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":666:18:666:26|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":669:14:669:22|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":566:16:566:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":593:16:593:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":620:16:620:24|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":666:18:666:26|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":669:14:669:22|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":566:16:566:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":593:16:593:23|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":620:16:620:24|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":666:18:666:26|Removed redundant assignment
+@N: CD364 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":669:14:669:22|Removed redundant assignment
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch 
+@N: CD630 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CCC_0\SF2_MSS_sys_sb_CCC_0_FCCC.vhd":8:7:8:31|Synthesizing work.sf2_mss_sys_sb_ccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+@N: CL134 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreGPIO\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Found RAM CONFIG_reg, depth=3, width=8
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state
+@N: CL201 :"C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\component\work\SF2_MSS_sys_sb\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state
+@N|Running in 64-bit mode
+

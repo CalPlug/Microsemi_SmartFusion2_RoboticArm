@@ -1,0 +1,11 @@
+12:14:32 **** Incremental Build of configuration Release for project SF2_GNU_SC4_pwm_slow_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_pwm_slow_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16560	   1104	  64432	  82096	  140b0	SF2_GNU_SC4_pwm_slow_blink.elf
+Finished building: SF2_GNU_SC4_pwm_slow_blink.siz
+ 
+
+12:14:32 Build Finished (took 390ms)
+

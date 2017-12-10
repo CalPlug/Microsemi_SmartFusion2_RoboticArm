@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  work.SF2_MSS_sys  -multisrs  "C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_comp.srs"  -osyn  "C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_mult.srs"  -log  "C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synlog\SF2_MSS_sys_multi_srs_gen.srr" 
+rc:0 success:1
+C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_comp.srs|i|1488746596|133619
+C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_mult.srs|o|1488746599|4711
+C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synlog\SF2_MSS_sys_multi_srs_gen.srr|o|1488746599|498
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449250524|3007488
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449250526|3974144

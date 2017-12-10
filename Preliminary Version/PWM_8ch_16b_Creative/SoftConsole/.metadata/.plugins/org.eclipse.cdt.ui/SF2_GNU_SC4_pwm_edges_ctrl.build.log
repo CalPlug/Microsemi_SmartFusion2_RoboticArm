@@ -1,0 +1,11 @@
+21:16:44 **** Incremental Build of configuration Debug for project SF2_GNU_SC4_pwm_edges_ctrl ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_pwm_edges_ctrl.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6512	   1072	  57952	  65536	  10000	SF2_GNU_SC4_pwm_edges_ctrl.elf
+Finished building: SF2_GNU_SC4_pwm_edges_ctrl.siz
+ 
+
+21:16:46 Build Finished (took 2s.99ms)
+

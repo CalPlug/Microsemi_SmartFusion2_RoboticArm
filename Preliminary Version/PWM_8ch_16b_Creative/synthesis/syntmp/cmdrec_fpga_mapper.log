@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis   -part M2S025  -package VF256  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synlog\report\SF2_MSS_sys_fpga_mapper.xml  -top_level_module  work.SF2_MSS_sys  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.edn   -freq 100.000   -tcl  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\designer\SF2_MSS_sys\synthesis.fdc  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_prem.srd  -sap  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.sap  -otap  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.tap  -omap  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.sap  -ologparam  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\syntmp\SF2_MSS_sys.plg  -osyn  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.srm  -prjdir  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\  -prjname  SF2_MSS_sys_syn  -log  C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synlog\SF2_MSS_sys_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\scratchproject.prs|o|1488867158|6861
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.edn|o|1488867170|1412129
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\designer\SF2_MSS_sys\synthesis.fdc|i|1488867157|2223
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_prem.srd|i|1488867164|181461
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.sap|o|1488867165|37197
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.tap|o|0|0
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.map|o|1488867171|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449250530|16359
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.sap|o|1488867165|37197
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\syntmp\SF2_MSS_sys.plg|o|1488867171|3164
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\SF2_MSS_sys.srm|o|1488867170|10960
+C:\Users\Hiperwall\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synlog\SF2_MSS_sys_fpga_mapper.srr|o|1488867171|55356
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449767944|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449769556|27632640

@@ -1,0 +1,543 @@
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+@W: BN231 |Constraints on tristate nets currently not supported
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri7 on net un1_tri7 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri6 on net un1_tri6 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri5 on net un1_tri5 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri4 on net un1_tri4 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri3 on net un1_tri3 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri2 on net un1_tri2 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri1 on net un1_tri1 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO111 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\reg_if.vhd":316:27:316:99|Tristate driver un1_tri0 on net un1_tri0 has its enable tied to GND (module corepwm_reg_if) 
+@W: MO171 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance SF2_MSS_sys_sb_0.CORERESETP_0.sm1_areset_n_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance SF2_MSS_sys_sb_0.CORERESETP_0.sm1_areset_n_clk_base reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance SF2_MSS_sys_sb_0.CORERESETP_0.RESET_N_F2M_int reduced to a combinational gate by constant propagation 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FA239 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_0.iPSELS_raw_6[2:0] mapped in logic.
+@N: FA239 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_0.iPSELS_raw_6[2:0] mapped in logic.
+@N: MO106 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM, 'CoreAPB3_0.iPSELS_raw_6[2:0]', 16 words by 3 bits 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+@N: MF135 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Found RAM 'GEN_BITS\.0\.REG_GEN\.CONFIG_reg[7:0]', 4 words by 8 bits 
+@W: FX107 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|No read/write conflict check. Possible simulation mismatch!
+@N: MF707 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Insert external logic with either syn_ramstyle=rw_check attribute or enable 'Read Write Check on RAM' option to resolve read/write conflict for GEN_BITS\.0\.REG_GEN\.CONFIG_reg[7:0] (view:coregpio_lib.CoreGPIO(rtl)).
+@N: BN362 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Removing sequential instance CONFIG_reg_0[2] of view:PrimLib.dffr(prim) in hierarchy view:coregpio_lib.CoreGPIO(rtl) because there are no references to its outputs 
+@A: BN291 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Boundary register CONFIG_reg_0[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Removing sequential instance CONFIG_reg_1[2] of view:PrimLib.dffr(prim) in hierarchy view:coregpio_lib.CoreGPIO(rtl) because there are no references to its outputs 
+@A: BN291 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Boundary register CONFIG_reg_1[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Removing sequential instance CONFIG_reg_2[2] of view:PrimLib.dffr(prim) in hierarchy view:coregpio_lib.CoreGPIO(rtl) because there are no references to its outputs 
+@A: BN291 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\coregpio\3.1.101\rtl\vhdl\core\coregpio.vhd":521:8:521:9|Boundary register CONFIG_reg_2[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N:"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\timebase.vhd":75:6:75:7|Found counter in view:corepwm_lib.corepwm_timebase(trans) inst period_cnt_int[15:0]
+@N:"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\timebase.vhd":58:6:58:7|Found counter in view:corepwm_lib.corepwm_timebase(trans) inst prescale_cnt[15:0]
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\timebase.vhd":83:19:83:45|Found 16 bit by 16 bit '==' comparator, 'un17_prescale_cnt'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.4\.PWM_output_generation\.un145_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.5\.PWM_output_generation\.un183_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.6\.PWM_output_generation\.un221_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.7\.PWM_output_generation\.un259_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.8\.PWM_output_generation\.un297_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.3\.PWM_output_generation\.un87_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.3\.PWM_output_generation\.un90_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.4\.PWM_output_generation\.un125_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.4\.PWM_output_generation\.un128_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.5\.PWM_output_generation\.un163_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.5\.PWM_output_generation\.un166_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.6\.PWM_output_generation\.un201_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.6\.PWM_output_generation\.un204_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.7\.PWM_output_generation\.un239_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.7\.PWM_output_generation\.un242_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.8\.PWM_output_generation\.un277_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.8\.PWM_output_generation\.un280_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.1\.PWM_output_generation\.un31_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.2\.PWM_output_generation\.un69_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":79:82:79:158|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.3\.PWM_output_generation\.un107_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.1\.PWM_output_generation\.un11_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.1\.PWM_output_generation\.un14_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:26:75:154|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.2\.PWM_output_generation\.un49_pwm_enable_reg'
+@N: MF179 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\actel\directcore\corepwm\4.3.101\rtl\vhdl\core\pwm_gen.vhd":75:163:75:239|Found 16 bit by 16 bit '==' comparator, 'PWM_output_select\.2\.PWM_output_generation\.un52_pwm_enable_reg'
+@N:"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\work\sf2_mss_sys_sb\coreuartapb_0\rtl\vhdl\core\clock_gen.vhd":214:11:214:12|Found counter in view:coreuartapb_lib.SF2_MSS_sys_sb_CoreUARTapb_0_Clock_gen(rtl) inst baud_cntr[12:0]
+Encoding state machine xmit_state[0:5] (view:coreuartapb_lib.SF2_MSS_sys_sb_CoreUARTapb_0_Tx_async(translated))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[0:3] (view:coreuartapb_lib.SF2_MSS_sys_sb_CoreUARTapb_0_Rx_async(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\work\sf2_mss_sys_sb\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|No possible illegal states for state machine rx_state[0:3],safe FSM implementation is disabled
+@W: BN132 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\work\sf2_mss_sys_sb\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":241:7:241:8|Removing instance SF2_MSS_sys_sb_0.CoreUARTapb_0.uUART.make_RX.last_bit[2],  because it is equivalent to instance SF2_MSS_sys_sb_0.CoreUARTapb_0.uUART.make_RX.last_bit[1]
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 149MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 144MB peak: 153MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 145MB peak: 153MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 145MB peak: 153MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 144MB peak: 153MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:04s; Memory used current: 144MB peak: 153MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:05s; Memory used current: 162MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		     0.64ns		1083 /       545
+   2		0h:00m:05s		     1.28ns		 862 /       545
+@N: FP130 |Promoting Net SF2_MSS_sys_sb_0.MSS_READY on CLKINT  I_77 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 166MB peak: 167MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 166MB peak: 167MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 548 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+========================================================= Non-Gated/Non-Generated Clocks ==========================================================
+Clock Tree ID     Driving Element                     Drive Element Type     Fanout     Sample Instance                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       SPI_0_CLK_F2M                       port                   1          SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST       
+@K:CKID0002       SF2_MSS_sys_sb_0.CCC_0.GL0_INST     CLKINT                 507        SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST       
+@K:CKID0003       SF2_MSS_sys_sb_0.CCC_0.GL1_INST     CLKINT                 40         SF2_MSS_sys_sb_0.corepwm_0_0.xhdl63.pwm_gen_inst.PWM_int[1]
+===================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 136MB peak: 167MB)
+
+Writing Analyst data base C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\synthesis\synwork\SF2_MSS_sys_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:07s; Memory used current: 163MB peak: 167MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:08s; Memory used current: 164MB peak: 167MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:08s; Memory used current: 163MB peak: 167MB)
+
+@W: MT246 :"c:\users\mike klopfer\desktop\newproject\pwm_8ch_16b_creative\component\work\sf2_mss_sys_sb\ccc_0\sf2_mss_sys_sb_ccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock SF2_MSS_sys|SPI_0_CLK_F2M with period 10.00ns. Please declare a user-defined clock on object "p:SPI_0_CLK_F2M"
+
+Found clock SF2_MSS_sys_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+Found clock SF2_MSS_sys_sb_0/CCC_0/GL0 with period 14.29ns 
+Found clock SF2_MSS_sys_sb_0/CCC_0/GL1 with period 1000.00ns 
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Mar 05 12:43:36 2017
+#
+
+
+Top view:               SF2_MSS_sys
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\Mike Klopfer\Desktop\NewProject\PWM_8ch_16b_Creative\designer\SF2_MSS_sys\synthesis.fdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 3.135
+
+                                                      Requested     Estimated     Requested     Estimated                Clock                                                                  Clock              
+Starting Clock                                        Frequency     Frequency     Period        Period        Slack      Type                                                                   Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0/CCC_0/GL0                            70.0 MHz      89.7 MHz      14.286        11.151        3.135      generated (from SF2_MSS_sys_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+SF2_MSS_sys_sb_0/CCC_0/GL1                            1.0 MHz       3.4 MHz       1000.000      296.457       10.051     generated (from SF2_MSS_sys_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+SF2_MSS_sys_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      NA            20.000        NA            NA         declared                                                               default_clkgroup   
+SF2_MSS_sys|SPI_0_CLK_F2M                             100.0 MHz     NA            10.000        NA            NA         inferred                                                               Inferred_clkgroup_0
+===================================================================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0/CCC_0/GL0  SF2_MSS_sys_sb_0/CCC_0/GL0  |  14.286      3.135    |  No paths    -      |  No paths    -      |  No paths    -    
+SF2_MSS_sys_sb_0/CCC_0/GL0  SF2_MSS_sys_sb_0/CCC_0/GL1  |  14.286      10.278   |  No paths    -      |  No paths    -      |  No paths    -    
+SF2_MSS_sys_sb_0/CCC_0/GL1  SF2_MSS_sys_sb_0/CCC_0/GL0  |  14.286      10.051   |  No paths    -      |  No paths    -      |  No paths    -    
+SF2_MSS_sys_sb_0/CCC_0/GL1  SF2_MSS_sys_sb_0/CCC_0/GL1  |  1000.000    995.730  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SF2_MSS_sys_sb_0/CCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                              Arrival          
+Instance                                                 Reference                      Type        Pin                Net                                                     Time        Slack
+                                                         Clock                                                                                                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                          3.235       3.135
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                          3.200       3.266
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[14]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[14]     3.180       3.551
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[15]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]     3.206       3.567
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]                          3.205       3.999
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]                          3.203       4.082
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[7]      CoreAPB3_0_APBmslave0_PADDR[7]                          3.191       4.143
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[13]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[13]     3.213       4.202
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]                          3.222       4.298
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_ADDR[12]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[12]     3.172       4.360
+================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                                                                Required          
+Instance                                                 Reference                      Type        Pin                 Net                                                      Time         Slack
+                                                         Clock                                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[6]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[6]      13.829       3.135
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[5]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[5]      13.776       3.478
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[1]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[1]      13.764       3.551
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[7]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[7]      13.851       3.553
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[3]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]      13.858       3.560
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[0]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[0]      13.851       3.638
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[2]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[2]      13.868       3.655
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[4]      SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[4]      13.832       4.027
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[12]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[12]     13.688       4.602
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST     SF2_MSS_sys_sb_0/CCC_0/GL0     MSS_025     F_HM0_RDATA[11]     SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[11]     13.816       4.730
+===================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      14.286
+    - Setup time:                            0.457
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.829
+
+    - Propagation time:                      10.694
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.135
+
+    Number of logic level(s):                7
+    Starting point:                          SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[2]
+    Ending point:                            SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[6]
+    The start point is clocked by            SF2_MSS_sys_sb_0/CCC_0/GL0 [rising] on pin CLK_BASE
+    The end   point is clocked by            SF2_MSS_sys_sb_0/CCC_0/GL0 [rising] on pin CLK_BASE
+
+Instance / Net                                                                                  Pin                Pin               Arrival     No. of    
+Name                                                                                Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST                                MSS_025     F_HM0_ADDR[2]      Out     3.235     3.235       -         
+CoreAPB3_0_APBmslave0_PADDR[2]                                                      Net         -                  -       1.157     -           109       
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns_RNO_0[6]     CFG4        D                  In      -         4.392       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns_RNO_0[6]     CFG4        Y                  Out     0.326     4.718       -         
+PRDATA_generated_6_1[6]                                                             Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns_RNO[6]       CFG4        B                  In      -         5.274       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns_RNO[6]       CFG4        Y                  Out     0.165     5.438       -         
+N_781                                                                               Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns[6]           CFG4        D                  In      -         5.994       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_8_ns[6]           CFG4        Y                  Out     0.288     6.282       -         
+N_813                                                                               Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_17[6]             CFG4        D                  In      -         6.837       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_17[6]             CFG4        Y                  Out     0.288     7.125       -         
+N_957                                                                               Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_23[6]             CFG4        C                  In      -         7.681       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_generated_23[6]             CFG4        Y                  Out     0.210     7.890       -         
+PRDATA_generated[6]                                                                 Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_regif_iv_0[6]               CFG4        D                  In      -         8.446       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.PRDATA_regif_iv_0[6]               CFG4        Y                  Out     0.288     8.733       -         
+CoreAPB3_0_APBmslave0_PRDATA[6]                                                     Net         -                  -       0.556     -           1         
+SF2_MSS_sys_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA[6]                                 CFG4        D                  In      -         9.289       -         
+SF2_MSS_sys_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA[6]                                 CFG4        Y                  Out     0.288     9.577       -         
+SF2_MSS_sys_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[6]                                 Net         -                  -       1.117     -           1         
+SF2_MSS_sys_sb_0.SF2_MSS_sys_sb_MSS_0.MSS_ADLIB_INST                                MSS_025     F_HM0_RDATA[6]     In      -         10.694      -         
+===========================================================================================================================================================
+Total path delay (propagation time + setup) of 11.151 is 5.543(49.7%) logic and 5.608(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: SF2_MSS_sys_sb_0/CCC_0/GL1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                      Starting                                                          Arrival           
+Instance                                                              Reference                      Type     Pin     Net               Time        Slack 
+                                                                      Clock                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[0]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[0]     0.108       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[1]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[1]     0.108       10.077
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[2]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[2]     0.108       10.091
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[3]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[3]     0.108       10.106
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[4]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[4]     0.108       10.121
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[5]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[5]     0.108       10.135
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[6]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[6]     0.108       10.150
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[7]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[7]     0.108       10.164
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[8]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[8]     0.108       10.179
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[9]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      Q       period_cnt[9]     0.108       10.194
+==========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                   Starting                                                          Required           
+Instance                                                           Reference                      Type     Pin     Net               Time         Slack 
+                                                                   Clock                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[0]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[1]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[2]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[3]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[4]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[5]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[6]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[7]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[8]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[9]     SF2_MSS_sys_sb_0/CCC_0/GL1     SLE      EN      prescale_reg7     13.948       10.051
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      14.286
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.948
+
+    - Propagation time:                      3.898
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 10.051
+
+    Number of logic level(s):                17
+    Starting point:                          SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[0] / Q
+    Ending point:                            SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[0] / EN
+    The start point is clocked by            SF2_MSS_sys_sb_0/CCC_0/GL1 [rising] on pin CLK
+    The end   point is clocked by            SF2_MSS_sys_sb_0/CCC_0/GL0 [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+SF2_MSS_sys_sb_0.corepwm_0_0.G0b\.timebase_inst.period_cnt_int[0]                 SLE      Q        Out     0.108     0.108       -         
+period_cnt[0]                                                                     Net      -        -       1.085     -           20        
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_0      ARI1     B        In      -         1.193       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_0      ARI1     FCO      Out     0.185     1.377       -         
+un1_period_cnt_cry_0                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_1      ARI1     FCI      In      -         1.377       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_1      ARI1     FCO      Out     0.015     1.392       -         
+un1_period_cnt_cry_1                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_2      ARI1     FCI      In      -         1.392       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_2      ARI1     FCO      Out     0.015     1.407       -         
+un1_period_cnt_cry_2                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_3      ARI1     FCI      In      -         1.407       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_3      ARI1     FCO      Out     0.015     1.421       -         
+un1_period_cnt_cry_3                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_4      ARI1     FCI      In      -         1.421       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_4      ARI1     FCO      Out     0.015     1.436       -         
+un1_period_cnt_cry_4                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_5      ARI1     FCI      In      -         1.436       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_5      ARI1     FCO      Out     0.015     1.450       -         
+un1_period_cnt_cry_5                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_6      ARI1     FCI      In      -         1.450       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_6      ARI1     FCO      Out     0.015     1.465       -         
+un1_period_cnt_cry_6                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_7      ARI1     FCI      In      -         1.465       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_7      ARI1     FCO      Out     0.015     1.480       -         
+un1_period_cnt_cry_7                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_8      ARI1     FCI      In      -         1.480       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_8      ARI1     FCO      Out     0.015     1.494       -         
+un1_period_cnt_cry_8                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_9      ARI1     FCI      In      -         1.494       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_9      ARI1     FCO      Out     0.015     1.509       -         
+un1_period_cnt_cry_9                                                              Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_10     ARI1     FCI      In      -         1.509       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_10     ARI1     FCO      Out     0.015     1.523       -         
+un1_period_cnt_cry_10                                                             Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_11     ARI1     FCI      In      -         1.523       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_11     ARI1     FCO      Out     0.015     1.538       -         
+un1_period_cnt_cry_11                                                             Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_12     ARI1     FCI      In      -         1.538       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_12     ARI1     FCO      Out     0.015     1.553       -         
+un1_period_cnt_cry_12                                                             Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_13     ARI1     FCI      In      -         1.553       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_13     ARI1     FCO      Out     0.015     1.567       -         
+un1_period_cnt_cry_13                                                             Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_14     ARI1     FCI      In      -         1.567       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_14     ARI1     FCO      Out     0.015     1.582       -         
+un1_period_cnt_cry_14                                                             Net      -        -       0.000     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_15     ARI1     FCI      In      -         1.582       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.un1_period_cnt_cry_15     ARI1     FCO      Out     0.015     1.596       -         
+un1_period_cnt                                                                    Net      -        -       0.999     -           1         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.prescale_reg7             CFG2     A        In      -         2.595       -         
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.G2\.1\.prescale_reg7             CFG2     Y        Out     0.100     2.696       -         
+prescale_reg7                                                                     Net      -        -       1.202     -           32        
+SF2_MSS_sys_sb_0.corepwm_0_0.xhdl58\.reg_if_inst.period_reg[0]                    SLE      EN       In      -         3.898       -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 4.235 is 0.950(22.4%) logic and 3.285(77.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+@W: MT447 :"c:/users/mike klopfer/desktop/newproject/pwm_8ch_16b_creative/designer/sf2_mss_sys/synthesis.fdc":10:0:10:0|Timing constraint (through [get_nets { SF2_MSS_sys_sb_0.CORERESETP_0.ddr_settled SF2_MSS_sys_sb_0.CORERESETP_0.count_ddr_enable SF2_MSS_sys_sb_0.CORERESETP_0.release_sdif*_core SF2_MSS_sys_sb_0.CORERESETP_0.count_sdif*_enable }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/mike klopfer/desktop/newproject/pwm_8ch_16b_creative/designer/sf2_mss_sys/synthesis.fdc":11:0:11:0|Timing constraint (from [get_cells { SF2_MSS_sys_sb_0.CORERESETP_0.MSS_HPMS_READY_int }] to [get_cells { SF2_MSS_sys_sb_0.CORERESETP_0.sm0_areset_n_rcosc SF2_MSS_sys_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/mike klopfer/desktop/newproject/pwm_8ch_16b_creative/designer/sf2_mss_sys/synthesis.fdc":12:0:12:0|Timing constraint (from [get_cells { SF2_MSS_sys_sb_0.CORERESETP_0.MSS_HPMS_READY_int SF2_MSS_sys_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] to [get_cells { SF2_MSS_sys_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/users/mike klopfer/desktop/newproject/pwm_8ch_16b_creative/designer/sf2_mss_sys/synthesis.fdc":13:0:13:0|Timing constraint (through [get_nets { SF2_MSS_sys_sb_0.CORERESETP_0.CONFIG1_DONE SF2_MSS_sys_sb_0.CORERESETP_0.CONFIG2_DONE SF2_MSS_sys_sb_0.CORERESETP_0.SDIF*_PERST_N SF2_MSS_sys_sb_0.CORERESETP_0.SDIF*_PSEL SF2_MSS_sys_sb_0.CORERESETP_0.SDIF*_PWRITE SF2_MSS_sys_sb_0.CORERESETP_0.SDIF*_PRDATA[*] SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_RESET_F2M SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_M3_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET SF2_MSS_sys_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+
+Finished final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:08s; Memory used current: 163MB peak: 167MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:08s; Memory used current: 163MB peak: 167MB)
+
+---------------------------------------
+Resource Usage Report for SF2_MSS_sys 
+
+Mapping to part: m2s025vf256std
+Cell usage:
+CCC             1 use
+CLKINT          3 uses
+MSS_025         1 use
+OR3             2 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG2           86 uses
+CFG3           113 uses
+CFG4           362 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           294 uses
+
+
+Sequential Cells: 
+SLE            545 uses
+
+DSP Blocks:    0
+
+I/O ports: 28
+I/O primitives: 27
+INBUF          7 uses
+OUTBUF         20 uses
+
+
+Global Clock Buffers: 3
+
+
+RAM/ROM usage summary
+Block Rams (RAM64x18) : 1
+
+Total LUTs:    855
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  545 + 36 + 0 + 0 = 581;
+Total number of LUTs after P&R:  855 + 36 + 0 + 0 = 891;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:08s; Memory used current: 55MB peak: 167MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:08s cputime
+# Sun Mar 05 12:43:36 2017
+
+###########################################################]

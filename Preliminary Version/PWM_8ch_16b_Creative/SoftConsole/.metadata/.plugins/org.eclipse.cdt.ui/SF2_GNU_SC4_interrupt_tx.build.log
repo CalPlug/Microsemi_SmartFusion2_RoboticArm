@@ -1,0 +1,11 @@
+21:16:40 **** Incremental Build of configuration Debug for project SF2_GNU_SC4_interrupt_tx ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_interrupt_tx.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6432	   1456	  57648	  65536	  10000	SF2_GNU_SC4_interrupt_tx.elf
+Finished building: SF2_GNU_SC4_interrupt_tx.siz
+ 
+
+21:16:41 Build Finished (took 1s.364ms)
+
